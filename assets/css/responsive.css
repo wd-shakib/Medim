@@ -1,0 +1,806 @@
+/* ===============================
+      Design by Md Shakib Reza 
+ ================================= */
+
+
+/* X-Large devices (large desktops, 1200px and Down) */
+@media (max-width: 1200px) {
+    .intro-body .ia-tab .ia-h2 {
+        font-size: 29px;
+    }
+
+    .intro-body .ia-tab .ia-btn {
+        font-size: 16px;
+        padding: 11px 10px 11px 20px;
+        width: 242px;
+
+    }
+
+    .intro-body .ia-tab .ia-btn i {
+        margin-right: 15px;
+    }
+
+    /* Book  */
+
+    .book .book-body {
+        padding-top: 90px;
+    }
+
+    .book .book-body .book-header {
+        padding-bottom: 50px;
+    }
+
+    /* Recent Post  */
+
+    .recent-post {
+        padding-top: 215px;
+        padding-bottom: 0;
+    }
+
+    .recent-post .rp-p {
+        font-size: 15px;
+    }
+
+    .recent-post .rp-header .rp-h2 {
+        font-size: 35px;
+    }
+
+    .recent-post .rp-header .rp-i {
+        font-size: 60px;
+        margin-top: 5px;
+    }
+
+    .recent-post .rp-header {
+        margin-bottom: 25px;
+    }
+
+    .recent-post .rp-media .media-body {
+        width: 220px;
+        padding: 30px 20px 40px 30px;
+    }
+
+    .recent-post .rp-media .media-body .meta-post .mp-p .mp-a {
+        font-size: 13px;
+    }
+
+    .recent-post .rp-media .media-body .mb-a .mb-h5 {
+        font-size: 16px;
+    }
+
+    .recent-post p {
+        font-size: 15px;
+    }
+
+    /* Footer  */
+    .footer .social-icon a:not(:last-child) {
+        margin-right: 0;
+    }
+}
+
+
+/* Large devices (desktops, 992px and Down) */
+@media (max-width: 992px) {
+    #toolbar .toolbar-item .toolbar-mail:not(:last-child) {
+        margin-right: 25px;
+    }
+
+    #toolbar .toolbar-item .mail-icon {
+        width: 0;
+        margin-right: 25px;
+    }
+
+    #toolbar .toolbar-item .toolbar-mail .media-body .text-d {
+        font-size: 15px;
+    }
+
+    #toolbar .toolbar-item .mail-icon i {
+        font-size: 12px;
+        line-height: 36px;
+    }
+
+    /* Main Menu  */
+
+    .main-menu nav {
+        padding: 15px 0;
+    }
+
+    .main-menu .navbar-nav {
+        margin-left: 10px;
+    }
+
+    .main-menu nav .navbar-toggler i {
+        font-size: 24px;
+    }
+
+    .main-menu nav ul li .home {
+        background: none;
+    }
+
+    .main-menu nav ul li a {
+        padding: 0 !important;
+        padding-bottom: 15px !important;
+    }
+
+    .main-menu .sticky ul li a {
+        padding: 15px 0px 5px 10px !important;
+    }
+
+    .main-menu nav ul li a i {
+        margin-left: 10px;
+    }
+
+    .main-menu nav form button {
+        right: 0;
+        left: 200px;
+    }
+
+    .main-menu .sticky .menu-logo {
+        display: none;
+    }
+
+    /* Banner Saction  */
+
+    .banner img {
+        width: 375px;
+        opacity: 1;
+    }
+
+    .banner .banenr-slider {
+        height: 650px;
+    }
+
+    .banner .banenr-slider .banner-item .banner-h6 {
+        word-spacing: 2px;
+        letter-spacing: 3px;
+        font-size: 20px;
+    }
+
+    .banner .banenr-slider .banner-item .banner-h1 {
+        font-weight: 700;
+        font-size: 55px;
+    }
+
+    .banner .banenr-slider .banner-item .banner-p {
+        line-height: 32px;
+        word-spacing: 2px;
+        padding: 15px 0;
+        font-size: 16px;
+    }
+
+    .banner .banenr-slider .banner-item .banner-btn .btn-a {
+        padding: 6px 26px;
+        letter-spacing: 1px;
+        font-size: 14px;
+    }
+
+    .banner .circle {
+        left: -43px;
+        height: 200px;
+        width: 200px;
+        bottom: 50px;
+        right: inherit;
+        opacity: .10;
+        transform: rotate(15deg);
+    }
+
+    .banner .circle-2 {
+        left: -128px;
+        bottom: -24px;
+        top: inherit;
+        width: 350px;
+        height: 350px;
+    }
+
+    .banner .circle-3 {
+        right: 28px;
+        height: 200px;
+        width: 200px;
+        bottom: -19px;
+        top: inherit;
+    }
+
+    .banner .circle-4 {
+        right: -85px;
+        bottom: -54px;
+        width: 350px;
+        height: 350px;
+        opacity: .10;
+    }
+
+
+    /* About Area  */
+
+    .about-area {
+        padding: 80px 0 30px 0;
+    }
+
+    .about-area .aa-h2 {
+        font-size: 35px;
+    }
+
+    .about-area .aa-h4 {
+        color: #343a40;
+        font-size: 20px;
+    }
+
+    .about-area p {
+        font-size: 15px;
+    }
+
+    .about-area .aa-btn {
+        padding: 7px 26px;
+        letter-spacing: 1px;
+        font-size: 13px;
+    }
+
+    /* Intro body  */
+
+    .intro-body .tab-content {
+        padding: 140px 0 75px 0;
+    }
+
+    .intro-body .ia-img-bg {
+        left: 0;
+        width: calc(50% - 145px);
+    }
+
+    .intro-body .tab-content .ti-p {
+        font-size: 15px;
+    }
+
+    .intro-body .ia-tab .ia-h2 {
+        font-size: 26px;
+    }
+
+    .intro-body .ia-overlay {
+        left: 0;
+        width: calc(50% - 145px);
+    }
+
+    .intro-body .ia-tab .ia-btn {
+        font-size: 15px;
+        padding: 14px 10px 14px 30px;
+        width: 232px;
+    }
+
+    .intro-body .tab-content .media .media-body .mb-h5 {
+        font-size: 16px;
+    }
+
+    .intro-body .tab-content .media .media-icon i {
+        font-size: 20px;
+    }
+
+    .intro-body .tab-content .tab-item .mb-btn {
+        padding: 7px 30px;
+        letter-spacing: 1px;
+        margin-top: 2rem;
+        font-size: 14px;
+    }
+
+    /* Medim Doctor Section  */
+
+    .doctor {
+        padding-top: 30px;
+        padding-bottom: 70px;
+    }
+
+    .doctor-header .doctor-text .dt-p {
+        font-size: 13px;
+    }
+
+    .doctor-header .doctor-text .dt-h2 {
+        font-size: 27px;
+    }
+
+    .text-center {
+        padding: 0 0 20px 0 !important;
+    }
+
+    /* Book Section  */
+
+    .book .book-body {
+        padding-top: 70px;
+    }
+
+    .book .book-body .book-header .bh-p {
+        letter-spacing: 0;
+        word-spacing: 1px;
+        font-size: 13px;
+    }
+
+    .book .book-body .book-header .bh-h2 {
+        font-size: 28px;
+    }
+
+    .book .book-body .book-header {
+        padding-bottom: 30px;
+    }
+
+    .appoint-card img {
+        bottom: 0;
+        left: 0;
+        max-width: 200px;
+        opacity: 0.8;
+    }
+
+    .appoint-card {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .book .form-control {
+        margin-bottom: 10px;
+    }
+
+    .select2-container .select2-selection--single .select2-selection__rendered {
+        display: block;
+        padding-left: 8px;
+        padding-right: 20px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        border: 1px solid #dde0ff;
+        border-radius: 3px;
+        margin-bottom: 10px;
+    }
+
+    .book .mt-4 {
+        margin-top: 15px !important;
+        font-size: 15px;
+        padding-top: 5px !important;
+    }
+
+    #form-btn {
+        padding: 5px 25px;
+        font-size: 13px;
+        margin: 0.3re,  !important;
+    }
+
+    /* Recent Post  */
+
+    .recent-post {
+        padding-top: 215px;
+        padding-bottom: 0;
+    }
+
+    .recent-post .rp-p {
+        font-size: 15px;
+    }
+
+    .recent-post .rp-header .rp-h2 {
+        font-size: 35px;
+    }
+
+    .recent-post .rp-header .rp-i {
+        font-size: 60px;
+        margin-top: 5px;
+    }
+
+    .recent-post .rp-header {
+        margin-bottom: 25px;
+    }
+
+    .recent-post .rp-media .media-body {
+        margin-left: -200px;
+        width: 270px;
+        padding: 30px 50px 30px 30px;
+    }
+
+    .recent-post .rp-media .media-body .meta-post .mp-p .mp-a {
+        font-size: 13px;
+    }
+
+    .recent-post .rp-media .media-body .mb-a .mb-h5 {
+        font-size: 16px;
+    }
+
+    .recent-post p {
+        font-size: 15px;
+    }
+}
+
+
+/* Extra small devices (phones, 768px and down) */
+@media (max-width: 767px) {
+
+    #toolbar {
+        padding: 15px 0;
+    }
+
+    #toolbar .logo {
+        display: block;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    /* Main Menu  */
+
+    .main-menu nav {
+        padding: 15px 0;
+    }
+
+    .main-menu .navbar-nav {
+        margin-left: 10px;
+    }
+
+    .main-menu nav .navbar-toggler i {
+        font-size: 24px;
+    }
+
+    .main-menu nav ul li .home {
+        background: none;
+    }
+
+    .main-menu nav ul li a {
+        padding: 0 !important;
+        padding-bottom: 15px !important;
+    }
+
+    .main-menu .sticky ul li a {
+        padding: 15px 0px 5px 10px !important;
+    }
+
+    .main-menu nav ul li a i {
+        margin-left: 10px;
+    }
+
+    .main-menu nav form button {
+        right: 0;
+        left: 200px;
+    }
+
+    .main-menu .sticky .menu-logo {
+        display: none;
+    }
+
+    /* Banner Saction  */
+
+    .banner img {
+        width: 285px;
+        opacity: 0.3;
+    }
+
+    .banner .banenr-slider {
+        height: 500px;
+    }
+
+    .banner .banenr-slider .banner-item .banner-h6 {
+        word-spacing: 1px;
+        letter-spacing: 2px;
+        font-size: 12px;
+    }
+
+    .banner .banenr-slider .banner-item .banner-h1 {
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    .banner .banenr-slider .banner-item .banner-p {
+        line-height: 29px;
+        word-spacing: 1px;
+        padding: 15px 0;
+        font-size: 14px;
+    }
+
+    .banner .banenr-slider .banner-item .banner-btn .btn-a {
+        padding: 4px 18px;
+        letter-spacing: 1px;
+        font-size: 12px;
+    }
+
+    .banner .circle {
+        left: -43px;
+        height: 200px;
+        width: 200px;
+        bottom: 50px;
+        right: inherit;
+        opacity: .10;
+        transform: rotate(15deg);
+    }
+
+    .banner .circle-2 {
+        left: -128px;
+        bottom: -24px;
+        top: inherit;
+        width: 350px;
+        height: 350px;
+    }
+
+    .banner .circle-3 {
+        right: 28px;
+        height: 200px;
+        width: 200px;
+        bottom: -19px;
+        top: inherit;
+    }
+
+    .banner .circle-4 {
+        right: -85px;
+        bottom: -54px;
+        width: 350px;
+        height: 350px;
+        opacity: .10;
+    }
+
+    /* About Area  */
+
+    .about-area {
+        padding: 70px 0 0px 0;
+    }
+
+    .about-area .aa-h2 {
+        font-size: 26px;
+        padding-bottom: 18px;
+    }
+
+    .about-area .aa-p {
+        line-height: 28px;
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .about-area .aa-btn {
+        padding: 4px 20px;
+        letter-spacing: 1px;
+        font-size: 13px;
+        margin-bottom: 20px;
+
+    }
+
+    .about-area .aa-item {
+        text-align: center;
+    }
+
+    .about-area h2,
+    h4 {
+        font-size: 20px;
+    }
+
+
+    /* Intro Area  */
+
+
+    .intro-body .ia-tab {
+        padding: 70px 0;
+    }
+
+
+    .intro-body .ia-img-bg {
+        width: 100%;
+        height: 450px;
+    }
+
+    .intro-body .ia-overlay {
+        width: 100%;
+        height: 450px;
+    }
+
+    .intro-body .ia-tab .ia-h2 {
+        font-size: 26px;
+    }
+
+    .intro-body .ia-tab .ia-btn {
+        font-size: 14px;
+        padding: 8px 0px 8px 20px;
+        margin-bottom: 0;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .intro-body .ia-tab .ia-btn i {
+        margin-right: 10px;
+    }
+
+    .intro-body .tab-content {
+        padding: 70px 0;
+    }
+
+    .intro-body .tab-content .ti-h6 {
+        padding-bottom: 25px;
+        font-size: 15px;
+    }
+
+    .intro-body .tab-content .ti-p {
+        margin-bottom: 25px;
+        font-size: 12px;
+    }
+
+    .intro-body .tab-content .media .media-body {
+        margin-bottom: 25px;
+    }
+
+    .intro-body .tab-content .media .media-body .mb-h5 {
+        font-size: 16px;
+    }
+
+    .intro-body .tab-content .media .media-body p {
+        font-size: 12px;
+    }
+
+    .intro-body .tab-content .tab-item .mb-btn {
+        padding: 5px 24px;
+        letter-spacing: 1px;
+        margin-top: 0.5rem;
+        font-size: 13px;
+    }
+
+    /* Medim Doctor Section  */
+
+    .doctor {
+        padding-top: 30px;
+        padding-bottom: 70px;
+    }
+
+    .doctor-header .doctor-text .dt-p {
+        font-size: 13px;
+    }
+
+    .doctor-header .doctor-text .dt-h2 {
+        font-size: 27px;
+    }
+
+    .text-center {
+        padding: 0 0 20px 0 !important;
+    }
+
+    /* Book Section  */
+
+    .book .book-body {
+        padding-top: 70px;
+    }
+
+    .book .book-body .book-header .bh-p {
+        letter-spacing: 0;
+        word-spacing: 1px;
+        font-size: 13px;
+    }
+
+    .book .book-body .book-header .bh-h2 {
+        font-size: 28px;
+    }
+
+    .book .book-body .book-header {
+        padding-bottom: 30px;
+    }
+
+    .appoint-card img {
+        display: none;
+    }
+
+    .appoint-card {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .book .form-control {
+        margin-bottom: 10px;
+    }
+
+    .select2-container .select2-selection--single .select2-selection__rendered {
+        display: block;
+        padding-left: 8px;
+        padding-right: 20px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        border: 1px solid #dde0ff;
+        border-radius: 3px;
+        margin-bottom: 10px;
+    }
+
+    .mt-4 {
+        margin-top: 0.5rem !important;
+    }
+
+    #form-btn {
+        padding: 5px 25px;
+        font-size: 13px;
+        margin: 0.3re,  !important;
+    }
+
+    /* Recent Post  */
+
+    .recent-post {
+        padding-top: 210px;
+        padding-bottom: 40px;
+    }
+
+    .recent-post .rp-p {
+        font-size: 13px;
+    }
+
+    .recent-post .rp-header .rp-h2 {
+        font-size: 30px;
+    }
+
+    .recent-post .rp-header {
+        margin-bottom: 30px;
+    }
+
+    .recent-post .rp-media {
+        flex-flow: column;
+    }
+
+    .recent-post .post-img {
+        border-radius: 0px !important;
+        width: 100%;
+        object-fit: cover;
+        height: 250px;
+    }
+
+    .recent-post .rp-media .rp-a {
+        width: 100%;
+    }
+
+    .recent-post .rp-media .media-body {
+        margin-left: 0;
+        padding-top: 25px;
+        padding-bottom: 30px;
+        padding-left: 15px;
+        padding-right: 0;
+        width: 100%;
+        border-radius: 0;
+        margin-bottom: 40px;
+    }
+
+    .recent-post .rp-media .media-body .meta-post .mp-p .mp-a {
+        font-size: 14px;
+    }
+
+    .recent-post .rp-media .media-body .mb-a .mb-h5 {
+        font-size: 16px;
+    }
+
+    .recent-post .rp-media .media-body p {
+        font-size: 12px;
+    }
+
+    /* Footer  */
+
+    .footer {
+        padding-top: 60px;
+    }
+
+    .footer .footer-widget p {
+        font-size: 13px;
+    }
+
+    .footer .footer-widget .mb-5 {
+        margin-bottom: 1.7rem !important;
+    }
+
+    .footer .footer-widget-title {
+        margin-top: 60px;
+        margin-bottom: 30px;
+        font-size: 16px;
+    }
+
+    .footer .footer-widget ul li a {
+        font-size: 14px;
+    }
+
+    .footer .social-icon a:not(:last-child) {
+        margin-right: 0;
+    }
+
+    .footer .circle-link a {
+        font-size: 15px;
+    }
+
+    .footer-bottom {
+        margin-top: 100px;
+    }
+}
+
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    .intro-body .ia-tab {
+        margin-left: 95px;
+    }
+}

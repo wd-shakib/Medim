@@ -1,2 +1,1 @@
-# Medim
- Medim one page Template
+Medim one page Template
